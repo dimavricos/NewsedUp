@@ -1,0 +1,95 @@
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+p{
+	font-size: 20px;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+/**
+ * Checkbox Four
+ */
+.checkboxFour {
+width: 20px;
+height: 20px;
+background: #ddd;
+position: relative;
+}
+
+/**
+ * Create the checkbox button
+ */
+.checkboxFour label {
+display: block;
+width: 10px;
+height: 10px;
+-webkit-transition: all .5s ease;
+-moz-transition: all .5s ease;
+-o-transition: all .5s ease;
+-ms-transition: all .5s ease;
+transition: all .5s ease;
+cursor: pointer;
+position: absolute;
+top: 5px;
+left: 5px;
+z-index: 1;
+background: #CACACA;
+text-indent: 25px;
+line-height: 9px;
+}
+
+/**
+ * Create the checked state
+ */
+.checkboxFour input[type=checkbox]:checked + label {
+	background: #26ca28;
+}
+
+.thumb{
+width: 45px;
+border-radius: 100%;
+border: 2px solid #E7E7E7;
+margin-right: 15px;
+}
+
+
+.small-col{
+padding: 10px;
+}
+
+.medium{
+
+font-size: 30px;
+
+}
+
+.light-blue{
+	color: rgb(29, 170, 160);	
+}
+
+.opacity-50{
+	opacity: 0.5;
+}
+
+.details{
+font-size: 11px;
+display: block;
+font-family: 'Roboto Slab', serif;
+}
+
+.row-article{
+border-bottom: 1px solid rgb(231, 231, 231);
+margin-bottom: 10px;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+
+.article-thumb{
+width: 140px;
+height: 120px;
+margin-top: 18px;
+}
